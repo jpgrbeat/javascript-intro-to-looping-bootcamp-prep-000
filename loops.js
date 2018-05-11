@@ -24,10 +24,12 @@ function doWhileLoop(arr){
   function maybeTrue() {
   return Math.random() >= 0.5
   }
-  
+  let i = 0;
   do{
-    
-  }
+    arr.pop();
+  }while(arr.length > 0 && maybeTrue())
+  
+  return arr;
   
 }
 
