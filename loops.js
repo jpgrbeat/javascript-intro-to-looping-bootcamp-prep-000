@@ -19,7 +19,10 @@ function whileLoop(num){
   return 'done';
 }
 
-function 
+function doWhileLoop(arr){
+  
+  
+}
 
 
 
