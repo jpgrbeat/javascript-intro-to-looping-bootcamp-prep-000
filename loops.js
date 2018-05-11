@@ -2,10 +2,10 @@ function forLoop(arr){
 
   for(let i = 0; i < 25; i++){
     if(i===1){
-      arr[i] = `I am ${i} strange loop.`;
+      arr[i].push(`I am ${i} strange loop.`);
     }
     else{
-      arr[i] = `I am ${i} strange loops.`
+      arr[i].push(`I am ${i} strange loops.`)
     }
   
   }
